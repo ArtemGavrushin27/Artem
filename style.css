@@ -1,0 +1,358 @@
+body{
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+.shapka{
+	width: 100%;
+	background-color: none;
+	background-color: #FFF;
+}
+.headder__inner{
+	grid-tempalte-columns:2fr 2fr;
+	-webkit-justify-content: space-between;
+			justify-content: space-between;
+}
+.header_logo{
+		display: flex;
+	    -webkit-justify-content: space-between;
+	            justify-content: space-between;
+	    text-transform: uppercase;
+	    font-size: 40px;   
+	    font-family: 'Permanent Marker', cursive;
+	    color: #EF3131;
+	    padding:15px;
+}
+
+.nav1{
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 25px;
+}
+.nav__link1{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	text-decoration: none;
+	transition: color 0.1s linear;
+	color: #000;
+	position: relative;
+	font-family:none;
+}
+.nav__link1::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	opacity: 0;
+
+	background-color: #27ee;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	transition: opacity 0.1s linear;
+}
+.nav__link1:hover{
+	color: #27ee;
+	font-size:17px;
+}
+.nav__link1:hover:after{
+	opacity: 1;
+}                     	
+.div1{
+	height: 100vh;
+	background-image:url(https://www.jazztour.ru/blog/wp-content/uploads/%D0%92%D1%81%D0%B5-%D1%87%D1%82%D0%BE-%D0%B2%D0%B0%D0%BC-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B7%D0%BD%D0%B0%D1%82%D1%8C-%D0%BE-%D0%BF%D0%BE%D1%81%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B8-%D0%93%D1%80%D0%B0%D0%BD%D0%B4-%D0%9A%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD%D0%B0-10.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.content{
+	height: 100%;
+	background-color: #00000060;
+	text-transform: uppercase;
+	color: #FFF;
+}
+h1{
+	width: 560px;
+	padding: 200px;
+	height: 150px;
+	font-size:72px;
+	color:#ebc463;
+}
+.ssilka{
+	display: inline-block;
+	border:none;
+	background-color: #a263eb;
+	color: #FFF;	
+	text-decoration: none;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+	padding: 7px 30px;
+	margin-left: 200px;
+	font-size: 15px;
+}
+.slider{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 250px;
+	padding: 20px;
+	text-align: center;
+}
+.slider__item{
+	width: 23%;
+	padding: 20px 0;
+
+	border-top: 2px solid #ebc463;
+	opacity: 0.8;
+
+	font-size: 20px;
+	color: #fff;
+	text-decoration: uppercase;
+}
+.slider__num{
+	font-size: 25px;
+	font-weight: 700;
+}
+.div3{
+	height: 100vh;
+	background-image: url(https://www.setwalls.ru/pic/201304/1920x1080/setwalls.ru-2345.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+}
+.content2{
+	height: 100%;
+	background-color: #a6190750;
+	text-transform: uppercase;
+	color: #FFF;
+}
+h2{
+	font-size: 65px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	padding-top:250px;
+	font-family: 'Quicksand', sans-serif;
+}
+h3{
+	width: 1300px;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff96;
+	margin: 0 auto;
+	font-family: 'Kaushan Script', cursive;
+
+}
+.silochka{
+	display: inline-block;
+	border:none;
+	background-color: #a263eb;
+	color: #FFF;	
+	text-decoration: none;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+	padding: 10px 30px;
+	margin-left: 850px;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.div4{
+	height: 100vh;
+	background-image: url(https://wallpapershome.ru/images/wallpapers/firewatch-5120x2880-4k-8k-art-les-13610.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+}
+.content3{
+	height: 100%;
+	background-color: #00000090;
+	text-transform: uppercase;
+	color: #FFF;
+}
+h4{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	padding:80px
+}
+.tytzagl{
+	display: grid;
+	width: 900px;
+	height: 450px;
+	margin: auto;
+	grid-template-columns:2fr 2fr;
+	font-size: 40px;
+	font-family: 'Unica One', cursive;
+	grid-gap:10vw;
+}
+.div5{
+	height: 100vh;
+	background-color:white;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+}
+.blockspfoto{
+	width: 800px;
+	height: 100%;
+	background-image: url(https://user.vse42.ru/files/P_S1280x853q80/Wnone/ui-5e27e4b79c4c23.00842200.jpeg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+	grid-column:1/2;
+	
+}
+.zatemnenie{
+	height: 100%;
+	background-color: #00000090;
+	color: #FFF;
+}
+.context{
+	height: 100%;
+	width: 100%;
+	grid-column:2/4;
+}
+.ptext{
+	padding: 100px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.podtext1{
+	width: 900px;
+	padding-left: 100px;
+	font-size: 30px;
+	color:#262323;
+	font-family: 'Arapey', serif;
+}
+.podtext2{
+	width: 900px;
+	padding-left: 100px;
+	font-size: 20px;
+	color: #26262690;
+	font-family: 'Arapey', serif;
+}
+.div2{
+	height: 100vh;
+	background-color: #d8dbe380;
+}
+.tipozagolovok{
+	font-size: 50px;
+	margin: 0;
+	text-align: center;
+}
+.podzagolovkomm{
+	font-size: 25px;	
+	text-align: center;
+	color: #363534;
+}
+.gallery{
+	display: grid;
+	grid-template-columns:2fr 2fr;
+	grid-gap:3em;
+	justify-items:center;
+}
+.photo{
+	width: 700px;
+	height: 350px;
+	border: 1px solid black;
+	-webkit-border-radius: 100px;
+	        border-radius: 100px;
+	opacity: 1;
+}
+.aa{
+	background-image: url(https://www.travellens.co/content/images/2019/10/Paris-eiffel-tower.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+}
+.ss{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/1200px-Hollywood_Sign_%28Zuschnitt%29.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+}
+.dd{
+	background-image: url(https://i.pinimg.com/originals/75/a7/b4/75a7b43b6728b39c3f9948870c7773c9.jpg);
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+}
+.ff{
+	background-image: url(https://img2.goodfon.ru/wallpaper/nbig/1/9b/madrid-ispaniya-noch-madrid.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+}
+.poverhphoto{
+	width: 100%;
+	height: 100%;
+	border:1px solid black;
+	-webkit-border-radius: 100px;
+	        border-radius: 100px;
+	opacity: 0;
+	z-index: 1;
+	text-align: center;
+}
+.lupa{
+	width:30px;
+	height: 30px;
+	margin: 175px auto;
+}
+.poverhphoto:hover{
+	opacity: 0.5;	
+}
+.photo:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	background-color: blue;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color:#000;
+	margin: 0 auto;
+	text-align: center;
+	padding-top:25px;
+}
+footer a{
+	color:white;
+	font-size: 20px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+footer nav a:hover{
+	border-bottom:1px solid white;
+}
+.social img{
+	width: 25px;
+	height: 25px;
+	margin: 0 auto;
+	margin-top:10px;
+	border: 0px solid grey;
+}
+.social img:hover{
+	background:#343434;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+}
